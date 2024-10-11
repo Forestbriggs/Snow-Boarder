@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour
 
     void RespondToBoost()
     {
+        // Change DustTrail to be stronger on boost
         if (Input.GetKey(KeyCode.UpArrow))
         {
             surfaceEffector2D.speed = boostSpeed;
